@@ -9,5 +9,5 @@ It's playble:)
 Controls:
 ↑     — rotate;
 ←, →  — move left or right;
-↓     — acceleration move dow.
+↓     — acceleration move down.
 
