@@ -4,7 +4,7 @@
 ; EDITED  : 18.10.2017
 ; ---------------------------------------------------------------------
 randomize rnd(60)
-loadfont "Comic Sans MS",2,26,1
+loadfont "Arial",2,26,1
 setfont 2
 
 loadimage "gfx/tile-1.bmp", 1
@@ -130,7 +130,7 @@ if flaglose=true
 				pos(i,k)=0
 			next k
 next i
-while spacekey()=false
+while spacekey() = false
 	text 10,300, "you score:  "+str$(score)
 	text 10,330, "press spacekey to continue"
 	text 10,350, "Press esc to exit"
