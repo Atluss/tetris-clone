@@ -1,7 +1,7 @@
 ; PROJECT : main
 ; AUTHOR  : ATLUS
 ; CREATED : 06.04.2012
-; EDITED  : 16.04.2012
+; EDITED  : 18.10.2017
 ; ---------------------------------------------------------------------
 randomize rnd(60)
 loadfont "Comic Sans MS",2,26,1
@@ -33,7 +33,7 @@ next t
 
 
 
-for g=0 to 24
+for g = 0 to 24
 	pos(g,11) = 2
 	pos(g,14) = 2
 	pos(g,0)  = 2
@@ -49,7 +49,7 @@ pos(12,9) = 0
 pos(4,2) = 0
 pos(4,9) =0 remend
 
-for g=1 to 10
+for g = 1 to 10
 	pos(22,g)=2
 	pos(23,g)=2
 	pos(24,g)=2
