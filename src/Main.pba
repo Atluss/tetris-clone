@@ -7,20 +7,20 @@ randomize rnd(60)
 loadfont "Comic Sans MS",2,26,1
 setfont 2
 
-loadimage "gfx/tile-1.bmp",1
-loadimage "gfx/tile-2.bmp",2
-loadimage "gfx/tile-3.bmp",3
-loadimage "gfx/tile-4.bmp",4
-loadimage "gfx/tile-5.bmp",5
-loadimage "gfx/tile-6.bmp",6
-loadimage "gfx/tile-7.bmp",7
-loadimage "gfx/tile_st.bmp",8
+loadimage "gfx/tile-1.bmp", 1
+loadimage "gfx/tile-2.bmp", 2
+loadimage "gfx/tile-3.bmp", 3
+loadimage "gfx/tile-4.bmp", 4
+loadimage "gfx/tile-5.bmp", 5
+loadimage "gfx/tile-6.bmp", 6
+loadimage "gfx/tile-7.bmp", 7
+loadimage "gfx/tile_st.bmp", 8
 
-loadFXimage "gfx/screen_tetris.png",9
+loadFXimage "gfx/screen_tetris.png", 9
 
-loadsound "snd/bit.wav",1
-loadsound "snd/line.wav",2
-loadsound "snd/lose.wav",3
+loadsound "snd/bit.wav", 1
+loadsound "snd/line.wav", 2
+loadsound "snd/lose.wav", 3
 setfps 30
 
 dim pos(24,14)
@@ -57,17 +57,17 @@ next g
 
 
 	
-x=280
-y=10
+x = 280
+y = 10
 
 time = timer()
 
 speed = 300
-speedAr=400
+speedAr = 400
 
-tm=timer()
-speedrot=100
-speedmove=60
+tm = timer()
+speedrot = 100
+speedmove = 60
 global tile = 25
 
 record=0
@@ -76,8 +76,8 @@ score_time=CurrentSecond()
 combotime=140
 tempscore=combotime
 
-horiz=5
-vert=0
+horiz = 5
+vert = 0
 
 // block
 dim block(3,3)
@@ -97,24 +97,20 @@ temp2=0
 
 flagerase=0
 
-flagleft=false
-flagright=false
-flagdown=true
+flagleft		= false
+flagright	= false
+flagdown		= true
+flagrot 		= false
+flagnew 		= true
+flaglose		= false
 
-flagrot=false
-
-flagnew=true
-
-
-flaglose=false
-
-global tempnexta=rndrange(1,7)
-nexta=rndrange(1,7)
+global tempnexta = rndrange(1,7)
+nexta = rndrange(1,7)
 
 
-n=3
-z=0	
-rot=0	
+n = 3
+z = 0	
+rot = 0	
 
 Title_Screen(9)
 
