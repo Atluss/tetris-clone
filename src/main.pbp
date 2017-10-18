@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+  <PBProject Version="1.0">
+    <Includes Main="Main.pba">
+      <Include0 Name="Main.pba" Visible="1" CursorCol="13" CursorLine="302"/>
+    </Includes>
+    <Files/>
+    <LibraryHighlighters/>
+    <Executable Name="main.exe" SplashTime="0" DebugMode="0"/>
+    <VersionInfo UseInfo="0" AutoInc="0"/>
+    <Screen Title="Tetris" Width="800" Heigth="600" Depth="0" Mode="1"/>
+    <Author Name="ATLUS"/>
+    <Dates Created="06-04-2012" Edited="16-04-2012"/>
+    <Watches/>
+    <Breakpoints/>
+    <Trace/>
+  </PBProject>
