@@ -1,7 +1,7 @@
 ; PROJECT : main
 ; AUTHOR  : ATLUS
 ; CREATED : 06.04.2012
-; EDITED  : 18.10.2017
+; EDITED  : 19.12.2017
 ; ---------------------------------------------------------------------
 randomize rnd(60)
 loadfont "Arial",2,26,1
@@ -106,7 +106,6 @@ flaglose		= false
 
 global tempnexta = rndrange(1,7)
 nexta = rndrange(1,7)
-
 
 n = 3
 z = 0	
