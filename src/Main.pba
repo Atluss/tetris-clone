@@ -55,7 +55,7 @@ for g = 1 to 10
 	pos(24,g)=2
 next g
 
-
+;asdasd
 	
 x = 280
 y = 10
