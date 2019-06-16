@@ -1,4 +1,4 @@
-# tetris-clone-PlayBasic
+# tetris-clone
 Клон тетриса написанный на PlayBasic (код очень старый, грязный, не аккуратны, не понятный, когда только начинал программировать).
 
 Впринципе играбильно и затягивает. Управление на стрелочках.
@@ -7,7 +7,9 @@ A Tetris clone written on PlayBasic (the code is very old, dirty, not accurate, 
 
 It's playble:)
 Controls:
-↑     — rotate;
-←, →  — move left or right;
-↓     — acceleration move down.
+key|description
+---|---
+↑     | rotate;
+←, →  | move left or right;
+↓     | acceleration move down.
 
